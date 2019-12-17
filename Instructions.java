@@ -5,6 +5,20 @@ public class Instructions {
 	public String instName;
 	public String reg1;
 	public String reg2;
+	public String comments;
+	public int numStalls;
+	public int getNumStalls() {
+		return numStalls;
+	}
+	public void setNumStalls(int numStalls) {
+		this.numStalls = numStalls;
+	}
+	public String getComments() {
+		return comments;
+	}
+	public void setComments(String comments) {
+		this.comments = comments;
+	}
 	public String getInstName() {
 		return instName;
 	}
@@ -23,7 +37,7 @@ public class Instructions {
 	public void setReg2(String reg2) {
 		this.reg2 = reg2;
 	}
-	
-	
-	
+
+
+
 }
